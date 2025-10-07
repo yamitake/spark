@@ -16,7 +16,7 @@ class Hotwire::Spark::DefaultOptions
         css_paths: File.directory?("app/assets/builds") ? %w[ app/assets/builds ] : %w[ app/assets/stylesheets ],
         css_extensions: %w[ css ],
         html_paths: %w[ app/controllers app/helpers app/assets/images app/models app/views ],
-        html_extensions: %w[ rb erb png jpg jpeg webp svg ],
+        html_extensions: %w[ rb erb slim png jpg jpeg webp svg ],
         stimulus_paths: %w[ app/javascript/controllers ],
         stimulus_extensions: %w[ js ],
         html_reload_method: :morph
